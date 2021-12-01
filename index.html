@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js" defer></script>
     <link rel="stylesheet" href="./style.css" />
     <title>Tic-Tac-Toe</title>
   </head>
   <body>
-    <script src="./app.js"></script>
+    <h2 class="heading">TIC-TAC-TOE</h2>
+    <div class="board circle" id="board">
+      <div class="cell x" data-cell></div>
+      <div class="cell circle" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <div class="result-message">
+      <div data-winning-message>X wins!</div>
+      <button id="restartButton">Restart</button>
+    </div>
   </body>
 </html>
