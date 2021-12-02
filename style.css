@@ -158,3 +158,16 @@ body {
 .result-message.show {
   display: flex;
 }
+
+.creator {
+  position: absolute;
+  color: white;
+  font-family: "Bebas Neue";
+  left: 45%;
+  bottom: -2%;
+  font-size: 20px;
+}
+.creator a {
+  text-decoration: none;
+  color: rgb(83, 87, 87);
+}
